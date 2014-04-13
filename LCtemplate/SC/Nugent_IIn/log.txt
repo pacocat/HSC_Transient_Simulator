@@ -1,0 +1,25 @@
+This file was created at Tue Feb 18 21:46:46 2014
+
+### instrument information ###
+camera: SC
+filter: ['B', 'V', 'R', 'i', 'z']
+Vega -> AB conversion factor:
+ SC B -0.11588
+ SC V  0.00074
+ SC R  0.20673
+ SC i  0.38385
+ SC z  0.51540
+ Johnson U  0.71210
+ Johnson B -0.11723
+ Johnson V  0.00529
+ Johnson R  0.19777
+ Johnson I  0.43974
+
+
+### object information ###
+object type: SN IIn
+template author: Nugent
+normalization: absolute Vega magnitude to be MB = -18.000000 (Johnson filter) at maximum light
+
+
+Total calculation time was 392.644239 seconds

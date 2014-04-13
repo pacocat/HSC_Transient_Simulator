@@ -1,0 +1,1 @@
+#!/opt/local/bin/pythonimport numpy as npCT_HSCwide = np.loadtxt('./CT_SNIa_K09dust_HSCwide.txt')plot(CT_normal[:,0], CT_normal[:,1],'r-')legend(('HSC wide'),frameon=False)xlabel('redshift',fontsize=15)ylabel('control time [day (observer-frame)]',fontsize=15)xlim([0.2,1.8])savefig('controltime.eps',bbox_inches='tight',pad_inches=0.05)
